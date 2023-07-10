@@ -1,13 +1,15 @@
 import { useState } from 'react'
 import './App.css'
 
-import PreHeader from './components/PreHeader'
+import PreHeader from '/src/components/PreHeader'
+import Header from '/src/components/Header'
 
 function App() {
 
   return (
     <>
       <PreHeader />
+      <Header />
       <h1>Hello World</h1>
     </>
   )
