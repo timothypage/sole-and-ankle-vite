@@ -1,11 +1,13 @@
-import { preheader, otherText } from "./PreHeader.module.css";
+import { ShoppingBag } from "react-feather";
+import SearchInput from "/src/components/SearchInput"
+
+import styles from "./PreHeader.module.css";
 
 const PreHeader = () => (
-  <div className={preheader}>
+  <div className={styles.preheader}>
     <p>Free shipping on domestic orders over $75!</p>
-    <p className={otherText}>Search</p>
-    <p>Help</p>
-    <div className="cart">Cart</div> 
+    <SearchInput />
+    <ShoppingBag className={styles.lightGreyText} /> 
   </div>
 )
 
