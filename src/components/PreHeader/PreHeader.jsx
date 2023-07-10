@@ -7,6 +7,7 @@ const PreHeader = () => (
   <div className={styles.preheader}>
     <p>Free shipping on domestic orders over $75!</p>
     <SearchInput />
+    <p>Help</p>
     <ShoppingBag className={styles.lightGreyText} /> 
   </div>
 )
