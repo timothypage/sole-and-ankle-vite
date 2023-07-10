@@ -1,0 +1,16 @@
+.preheader {
+  background: #313235;
+  color: #FFFFFF;
+  font-size: 0.875rem;
+  padding: 0.75rem 2rem;
+
+  display: flex;
+
+  :first-child {
+    margin-right: auto;
+  }
+}
+
+.other-text {
+  color: #C9CECF;
+}
