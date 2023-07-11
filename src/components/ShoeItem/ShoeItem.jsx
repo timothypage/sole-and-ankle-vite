@@ -14,19 +14,19 @@ const ShoeItem = ({
   return (
     <div className={classnames(className, styles.shoeItem)}>
       <div className={styles.tags}>
-        <p>Just Released!</p>
-        <p className={styles.sale}>Sale</p>
+        {isNew ? (<p>Just Released!</p>) : null}
+        {salePrice ? (<p className={styles.sale}>Sale</p>) : null}
       </div>
       <img src={image} />
       <div className={styles.namePrice}>
         <p>{name}</p>
-        <p>${price}</p>
+        <p className={salePrice ? styles.oldPrice : undefined}>${price}</p>
       </div>
       <div className={styles.namePrice}>
         <p className={styles.colors}>{`${colors} ${
           colors === 1 ? 'Color' : 'Colors'
         }`}</p>
-        <p className={styles.salePrice}>${salePrice}</p>
+        {salePrice ? (<p className={styles.salePrice}>${salePrice}</p>) : null}
       </div>
     </div>
   )

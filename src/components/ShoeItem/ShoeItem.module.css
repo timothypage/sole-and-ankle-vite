@@ -35,7 +35,12 @@
   justify-content: space-between;
 }
 
-.salePrice {
+.old-price {
+  color: var(--gray-700);
+  text-decoration: line-through;
+}
+
+.sale-price {
   color: var(--primary);
 }
 
