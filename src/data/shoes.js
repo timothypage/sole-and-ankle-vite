@@ -69,6 +69,7 @@ const shoes = [
     name: 'C Suite',
     type: 'dress',
     price: 265,
+    isNew: true,
     colors: 2,
     image: 'dress-shoe-c-suite.png'
   },
@@ -142,6 +143,7 @@ const shoes = [
     name: 'Caicos',
     type: 'sandal',
     price: 115,
+    isNew: true,
     colors: 2,
     image: 'sandal-caicos.png'
   },
