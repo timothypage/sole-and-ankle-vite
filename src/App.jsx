@@ -3,6 +3,7 @@ import './App.css'
 
 import PreHeader from '/src/components/PreHeader'
 import Header from '/src/components/Header'
+import ShoeNav from '/src/components/ShoeNav'
 
 function App() {
 
@@ -10,7 +11,9 @@ function App() {
     <>
       <PreHeader />
       <Header />
-      <h1>Hello World</h1>
+      <main>
+        <ShoeNav />
+      </main>
     </>
   )
 }
