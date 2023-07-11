@@ -17,7 +17,7 @@ const ShoeItem = ({
         {isNew ? (<p>Just Released!</p>) : null}
         {salePrice ? (<p className={styles.sale}>Sale</p>) : null}
       </div>
-      <img src={image} />
+      <img className={styles.shoeImage} src={image} />
       <div className={styles.namePrice}>
         <p>{name}</p>
         <p className={salePrice ? styles.oldPrice : undefined}>${price}</p>
