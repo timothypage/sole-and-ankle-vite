@@ -25,6 +25,7 @@ const ShoeType = ({ className }) => {
     <div className={classnames(className, styles.shoeType)}>
       {types.map(type => (
         <p
+          key={type}
           className={type === activeType ? styles.active : undefined}
           onClick={() => setActiveType(type)}
         >

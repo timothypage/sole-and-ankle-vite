@@ -1,0 +1,44 @@
+.shoe-item {
+  border-radius: 16px 16px 4px 4px;
+  position: relative;
+}
+
+.tags {
+  color: white;
+  line-height: 2rem;
+  font-weight: 600;
+
+  position: absolute;
+
+  top: 12px;
+  right: -10px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+
+  gap: 24px;
+
+  p {
+    padding: 7px 9px 9px 11px;
+    background-color: var(--secondary);
+    border-radius: 3px;
+  }
+
+  .sale {
+    background-color: var(--primary);
+  }
+}
+
+.name-price {
+  display: flex;
+  justify-content: space-between;
+}
+
+.salePrice {
+  color: var(--primary);
+}
+
+.colors {
+  color: var(--gray-700);
+}
