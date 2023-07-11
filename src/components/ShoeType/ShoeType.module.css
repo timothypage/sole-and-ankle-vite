@@ -1,0 +1,13 @@
+.shoe-type {
+  line-height: 2rem;
+  font-weight: 600;
+  color: var(--gray-900);
+
+  p {
+    cursor: pointer;
+  }
+
+  .active {
+    color: var(--primary);
+  }
+}

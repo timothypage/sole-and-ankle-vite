@@ -1,0 +1,9 @@
+.shoes {
+  display: flex;
+
+  margin: 32px;
+}
+
+.shoe-type {
+  flex: 0 0 248px;
+}
